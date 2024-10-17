@@ -22,7 +22,7 @@ Store the estimated state in a list.
 #### Step 6: 
 Plot the true and estimated positions.
 ## Program:
-python
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 class KalmanFi1ter:
@@ -64,7 +64,7 @@ plt.plot([s[0] for s in truestates],label="true")
 plt.plot([s[0] for s in est_states],label="Estimate")
 plt.legend()
 plt.show()
-
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/2797ea7a-8018-44f9-adf1-d63f228ec3b4)
 
